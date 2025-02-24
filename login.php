@@ -35,7 +35,7 @@
                     <input type="password" id="password" name="password" placeholder="Enter your password" required>
                 </div>
                 <button type="submit" class="login-btn">Login</button>
-                <p class="register-link">Don't have an account? <a href="#">Sign up</a></p>
+                <p class="register-link">Don't have an account? <a href="register.php">Sign up</a></p>
             </form>
         </div>
     </section>
