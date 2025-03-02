@@ -7,7 +7,7 @@ require("sql/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Food Store</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/signup.css">
 </head>
@@ -18,8 +18,8 @@ require("sql/functions.php");
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Specials</a></li>
-                <li><a href="#">Menu</a></li>
+                <li><a href="">Specials</a></li>
+                <li><a href="">Menu</a></li>
                 <li><a href="login.php" class="active">Login</a></li>
             </ul>
         </nav>
@@ -27,19 +27,13 @@ require("sql/functions.php");
 
     <section class="login-container">
         <div class="login-box">
-            <h2>Sign Up</h2>
             <?php
-            $success_message = "";
-            $error_message = "";
-            signupCheck();
+            $message = signupCheck();
             ?>
-            <?php if ($success_message): ?>
-                <p class="success"><?php echo $success_message; ?></p>
+            <?php if ($message): ?>
+                <p class="msg"><?php echo $message; ?></p>
             <?php endif; ?>
-
-            <?php if ($error_message): ?>
-                <p class="error"><?php echo $error_message; ?></p>
-            <?php endif; ?>
+            <h2>Sign Up</h2>
 
             <form method="POST">
                 <div class="input-group">

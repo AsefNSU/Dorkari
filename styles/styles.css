@@ -110,3 +110,8 @@ footer {
     margin-top: 40px;
     z-index: 2;
 }
+
+.msg {
+    background: rgb(31, 127, 31);
+    border-radius: 5px;
+}

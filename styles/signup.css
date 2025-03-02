@@ -67,3 +67,8 @@
 .register-link a:hover {
     text-decoration: underline;
 }
+
+.msg {
+    background: rgb(31, 127, 31);
+    border-radius: 5px;
+}

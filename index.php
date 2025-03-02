@@ -14,9 +14,9 @@
         <div class="logo">DORKARI</div>
         <nav>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Specials</a></li>
-                <li><a href="#">Menu</a></li>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Specials</a></li>
+                <li><a href="">Menu</a></li>
                 <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
@@ -30,11 +30,11 @@
         <aside class="categories">
             <h3>Categories</h3>
             <ul>
-                <li><a href="#">Meat</a></li>
-                <li><a href="#">Seafood</a></li>
-                <li><a href="#">Pizza & Pasta</a></li>
-                <li><a href="#">Snacks</a></li>
-                <li><a href="#">Ice Cream</a></li>
+                <li>Meat</a></li>
+                <li>Seafood</a></li>
+                <li>Pizza & Pasta</a></li>
+                <li>Snacks</a></li>
+                <li>Ice Cream</a></li>
             </ul>
         </aside>
 
@@ -45,29 +45,30 @@
                     <img src="images/GrilledChickenSalad.webp" alt="Food 1">
                     <h3>Grilled Chicken Salad</h3>
                     <p>Fresh and healthy grilled chicken with greens.</p>
-                    <p class="price">$25.99</p>
+                    <p class="price">400Tk</p>
                 </div>
                 <div class="product">
                     <img src="images/CrispyFishCake.webp" alt="Food 2">
                     <h3>Crispy Fish Cakes</h3>
                     <p>Golden fried fish cakes served with tartar sauce.</p>
-                    <p class="price">$24.99</p>
+                    <p class="price">230TK</p>
                 </div>
                 <div class="product">
                     <img src="food3.jpg" alt="Food 3">
                     <h3>Spicy Crab Delight</h3>
                     <p>Succulent crab in a rich and spicy sauce.</p>
-                    <p class="price">$26.99</p>
+                    <p class="price">369TK</p>
                 </div>
                 <div class="product">
                     <img src="food3.jpg" alt="Food 3">
                     <h3>Spicy Crab Delight</h3>
                     <p>Succulent crab in a rich and spicy sauce.</p>
-                    <p class="price">$26.99</p>
+                    <p class="price">250tk</p>
                 </div>
             </div>
         </section>
-    </section>
+        
+    
 </body>
 
 </html>
